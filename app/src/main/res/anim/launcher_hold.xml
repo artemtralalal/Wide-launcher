@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- «Пустая» системная анимация: окно лаунчера не двигается и не меняет прозрачность, все переходы рисует сам лаунчер -->
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <alpha android:fromAlpha="1.0" android:toAlpha="1.0" android:duration="1" />
+</set>
