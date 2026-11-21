@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Launcher" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@style/Animation.Launcher</item>
+    </style>
+    <!-- системные переходы окна лаунчера отключены: иначе при возврате из приложения играет ещё одна, лишняя анимация -->
+    <style name="Animation.Launcher" parent="@android:style/Animation">
+        <item name="android:activityOpenEnterAnimation">@anim/launcher_hold</item>
+        <item name="android:activityOpenExitAnimation">@anim/launcher_hold</item>
+        <item name="android:activityCloseEnterAnimation">@anim/launcher_hold</item>
+        <item name="android:activityCloseExitAnimation">@anim/launcher_hold</item>
+        <item name="android:taskOpenEnterAnimation">@anim/launcher_hold</item>
+        <item name="android:taskOpenExitAnimation">@anim/launcher_hold</item>
+        <item name="android:taskCloseEnterAnimation">@anim/launcher_hold</item>
+        <item name="android:taskCloseExitAnimation">@anim/launcher_hold</item>
+        <item name="android:taskToFrontEnterAnimation">@anim/launcher_hold</item>
+        <item name="android:taskToFrontExitAnimation">@anim/launcher_hold</item>
+        <item name="android:taskToBackEnterAnimation">@anim/launcher_hold</item>
+        <item name="android:taskToBackExitAnimation">@anim/launcher_hold</item>
+        <item name="android:wallpaperOpenEnterAnimation">@anim/launcher_hold</item>
+        <item name="android:wallpaperOpenExitAnimation">@anim/launcher_hold</item>
+        <item name="android:wallpaperCloseEnterAnimation">@anim/launcher_hold</item>
+        <item name="android:wallpaperCloseExitAnimation">@anim/launcher_hold</item>
+        <item name="android:wallpaperIntraOpenEnterAnimation">@anim/launcher_hold</item>
+        <item name="android:wallpaperIntraOpenExitAnimation">@anim/launcher_hold</item>
+        <item name="android:wallpaperIntraCloseEnterAnimation">@anim/launcher_hold</item>
+        <item name="android:wallpaperIntraCloseExitAnimation">@anim/launcher_hold</item>
+    </style>
+    <style name="Theme.Settings" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>
