@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wipe Launcher</string>
+    <string name="pixel_wallpaper_desc">Фото в форме на экране блокировки: при разблокировке форма плавно раскрывается</string>
+    <string name="pixel_wallpaper_author">Wipe Launcher</string>
+</resources>
